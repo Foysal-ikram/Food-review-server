@@ -1,0 +1,83 @@
+[
+    {
+        "name" :"Pizza " ,
+        "catagory" : "",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+        "description" : "pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.  One of the simplest and most traditional pizzas is the Margherita, which is topped with tomatoes or tomato sauce, mozzarella, and basil. Popular legend relates that it was named for Queen Margherita, wife of Umberto I, who was said to have liked its mild fresh flavour and to have also noted that its topping colours—green, white, and red—were those of the Italian flag" ,
+        "price" :"20" ,
+        "author" : "foysal" ,
+        "author_name" :" " 
+
+    } ,
+    {
+        "name" :"Hot Dog " ,
+        "catagory" : "",
+        "img" : "https://www.thespruceeats.com/thmb/EbAuyfHYpa2brec4IbbvjeMKcns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/homemade-hot-dogs-1808491-final-01-ddf78878cb784ccdb617a2ae31674b75.jpg",
+        "description" : "A hot dog (uncommonly spelled hotdog) is a food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun. The term hot dog can also refer to the sausage itself. The sausage used is a wiener (Vienna sausage) or a frankfurter (Frankfurter Würstchen, also just called frank" ,
+        "price" :"10" ,
+        "author" : "foysal" ,
+        "author_name" :" " 
+
+    } ,
+    {
+        "name" :"Pasta" ,
+        "catagory" : " ",
+        "img" : "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Pasta-alla-vodka-f1d2e1c.jpg",
+        "description" : "Delicious pasta dishes from classic spaghetti Bolognese to lasagne and linguine. Find the perfect pasta recipe for midweek meals as well as easy pasta dishes you can rustle up using your storecupboard." ,
+        "price" :"15" ,
+        "author" : "foysal" ,
+        "author_name" :" " 
+
+    } ,
+    {
+        "name" :"Chicken Roll" ,
+        "catagory" : " ",
+        "img" : "https://www.astha-bd.com/wp-content/uploads/2018/10/Chicken-Roll.jpg",
+        "description" : "Chicken Roll is a delectable North Indian recipe made using all purpose flour, stir-fried chicken, yoghurt and a variety of vegetables rolled into paranthas. On days you do not want to prepare an elaborate meal, this delectable dish can be a saviour. Rolls are quite popular across India and they are often a favourite evening snack. Egg Roll, Kathi Kebab Roll, Mutton Roll, Paneer Roll, Potato Roll and even Fish Roll are among its many variations. This easy roll recipe is made using chicken and has the unforgettable aroma of Indian spices. You can also utilize your leftover parathas and chapatis in making this recipe. If you do not like to use all-purpose flour or maida, you can make it with whole wheat flour too. In fact, it can be made even with leftover chicken. All you have to ensure is that you use the right amount of spices so that the flavour is not lost. Easy to pack and carry, you can also take it to office or prepare it for picnics and day trips. A must try roll recipe for all chicken lovers" ,
+        "price" :" " ,
+        "author" : "foysal" ,
+        "author_name" :" " 
+
+    } ,
+    {
+        "name" :"Chawmin" ,
+        "catagory" : " ",
+        "img" : "https://img.taste.com.au/1Crq3B5d/taste/2016/11/chow-mein-noodles-87683-1.jpeg",
+        "description" : "This Chinese takeaway classic side takes just 20 minutes and is great served with sticky pork ribs." ,
+        "price" :" " ,
+        "author" : " foysal" ,
+        "author_name" :" " 
+
+    } ,
+    {
+        "name" :"Faluda" ,
+        "catagory" : " ",
+        "img" : "https://media.newstrack.in/amp/uploads/health-lifestyle/khana-khazana/May/09/big_thumb/FALUDA3_6278d61944005.JPG",
+        "description" : "This faluda is a special one of our foods service. This is also cheap for your budget. It is also available for orders. you can taste it by ordering" ,
+        "price" :" " ,
+        "author" : "foysal" ,
+        "author_name" :"foysal" 
+
+    } ,
+    {
+        "name" :"Fuchka" ,
+        "catagory" : " ",
+        "img" : "https://media.newstrack.in/amp/uploads/health-lifestyle/khana-khazana/May/09/big_thumb/FALUDA3_6278d61944005.JPG",
+        "description" : "This  is a special one of our foods service. This is also cheap for your budget. It is also available for orders. you can taste it by ordering" ,
+        "price" :" " ,
+        "author" : "foysal" ,
+        "author_name" :"foysal" 
+
+    } ,
+    {
+        "name" :"Panipuri" ,
+        "catagory" : " ",
+        "img" : "https://media.newstrack.in/amp/uploads/health-lifestyle/khana-khazana/May/09/big_thumb/FALUDA3_6278d61944005.JPG",
+        "description" : "This  is a special one of our foods service. This is also cheap for your budget. It is also available for orders. you can taste it by ordering" ,
+        "price" :" " ,
+        "author" : "foysal" ,
+        "author_name" :"foysal" 
+
+    } 
+    
+]
