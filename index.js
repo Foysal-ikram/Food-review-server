@@ -68,6 +68,22 @@ async function run(){
             res.send(result) ;
         })
 
+        // ----------------------------Post Review--------------------------
+        app.post('/review' , async (req , res)=>{
+            const review = req.body ;
+            const result = await reviewCollection.insertOne(review) ;
+            console.log(review)
+            res.send(result) 
+        })
+
+        app.get('/reviews' , async(req,res)=>{
+            const querry ={} ;
+            const cursor = await reviewCollection.find(querry) ;
+            const result = await cursor.toArray() ;
+            res.send(result) 
+        })
+        
+
     }
     finally {
 
