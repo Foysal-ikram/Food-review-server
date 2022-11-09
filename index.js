@@ -75,12 +75,26 @@ async function run(){
             console.log(review)
             res.send(result) 
         })
-
-        app.get('/reviews' , async(req,res)=>{
-            const querry ={} ;
-            const cursor = await reviewCollection.find(querry) ;
-            const result = await cursor.toArray() ;
+        app.post('/addservice' , async(req,res)=>{
+            const service = req.body ;
+            const result = await serviceCollection.insertOne(service) ;
             res.send(result) 
+        })
+
+        
+        // ----------------------------------------------------------------------------
+        app.get('/reviews' , async(req,res)=>{
+            let query ={} ;
+            console.log(req.query.name)
+             if(req.query.name){
+                 query = {serviceName:req.query.name}
+            }
+            console.log(query)
+            const cursor = await reviewCollection.find(query) ;
+            const result = await cursor.toArray() ;
+            console.log(result)
+            res.send(result) 
+
         })
         
 
