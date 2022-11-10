@@ -56,7 +56,7 @@ async function run() {
 
         app.get('/service', async (req, res) => {
             const querry = {};
-
+            
             const cursor = serviceCollection.find(querry);
             //const mobiles = await cursor.limit(size).toArray() ;
             // const service = await cursor.toArray() ; 
@@ -95,7 +95,7 @@ async function run() {
         })
 
         // -----------------------------My review----------------------
-        app.get('/myreview',  async (req, res) => {
+        app.get('/myreview', verifyJWT , async (req, res) => {
             const decoded = req.decoded;
             //console.log('from review api',decoded)
 
